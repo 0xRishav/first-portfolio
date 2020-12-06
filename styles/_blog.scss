@@ -1,0 +1,30 @@
+.blogs-wrapper{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    height: 90vh;
+
+    .individual-blog-wrapper{
+        @include flex(space-between,center,row);
+        height: 10vh;
+    }
+
+
+
+    .info-container{
+        @include flex(space-around,flex-start,column);
+        height: 11vh;
+    }
+
+    button{
+        background: #2c2c2c;
+        color: white;
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+}
+.blog-hr{
+    width: 100%;
+}

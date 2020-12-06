@@ -1,0 +1,62 @@
+.projects{
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    @include flex(flex-start, center, column);
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    position: relative;
+    h2{
+        margin: 5rem;
+    }
+}
+
+hr{
+    width: 70%;
+}
+
+.music-player,
+.cli-one,
+.cli-two{
+    width: 70%;
+    @include flex(space-around, center, row);
+    flex-wrap: wrap;
+    .heading-caption-container{
+        align-self: flex-start;
+        @include flex(flex-start, flex-start, column);
+        margin: 1vh 0;
+    }
+    margin: 5vh 0;
+}
+.open-project-btn{
+    background: #2c2c2c;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: solid 1px #2c2c2c;
+    cursor: pointer;
+    // margin-left: 30%;
+}
+
+.github-btn{
+    background: transparent;
+    color:  #2c2c2c;
+    border: solid 1px #2c2c2c;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background: #2c2c2c;
+        color: white;
+    }
+}
+
+.button-wrapper{
+    @include flex(flex-start, center, row);
+    margin: 1vh 0;
+    button{
+        margin: 0 1rem;
+    }
+}
