@@ -20,7 +20,7 @@ hr{
 .cli-one,
 .cli-two{
     width: 70%;
-    @include flex(space-around, center, row);
+    @include flex(space-between, center, row);
     flex-wrap: wrap;
     .heading-caption-container{
         align-self: flex-start;
