@@ -16,7 +16,10 @@ hr{
     width: 70%;
 }
 
-.music-player,
+.off-the-clock,
+.animalpedia,
+.binary-converter,
+.banana-talk,
 .cli-one,
 .cli-two{
     width: 70%;
@@ -27,7 +30,7 @@ hr{
         @include flex(flex-start, flex-start, column);
         margin: 1vh 0;
     }
-    margin: 5vh 0;
+    margin: 3vh 0;
 }
 .open-project-btn{
     background: #2c2c2c;

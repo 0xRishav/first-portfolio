@@ -314,7 +314,10 @@ hr {
   width: 70%;
 }
 
-.music-player,
+.off-the-clock,
+.animalpedia,
+.binary-converter,
+.banana-talk,
 .cli-one,
 .cli-two {
   width: 70%;
@@ -333,10 +336,13 @@ hr {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5vh 0;
+  margin: 3vh 0;
 }
 
-.music-player .heading-caption-container,
+.off-the-clock .heading-caption-container,
+.animalpedia .heading-caption-container,
+.binary-converter .heading-caption-container,
+.banana-talk .heading-caption-container,
 .cli-one .heading-caption-container,
 .cli-two .heading-caption-container {
   -ms-flex-item-align: start;
@@ -484,7 +490,7 @@ footer {
 }
 
 .blogs-wrapper {
-  width: 60%;
+  width: 80%;
   position: relative;
   margin: auto;
   margin-top: 5%;
@@ -505,15 +511,37 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 10vh;
+  height: 50vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blogs-wrapper .icon-heading-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blogs-wrapper .icon-heading-wrapper h2 {
+  margin-left: 20px;
 }
 
 .blogs-wrapper .info-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -521,7 +549,11 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 11vh;
+  height: 30vh;
+}
+
+.blogs-wrapper .info-container * {
+  margin: 10px 0;
 }
 
 .blogs-wrapper button {
@@ -534,6 +566,10 @@ footer {
 
 .blog-hr {
   width: 100%;
+}
+
+.open-project-btn {
+  margin-left: 0;
 }
 
 @media screen and (max-width: 1332px) {

@@ -1,5 +1,5 @@
 .blogs-wrapper{
-    width: 60%;
+    width: 80%;
     position: relative;
     margin: auto;
     margin-top: 5%;
@@ -7,14 +7,24 @@
 
     .individual-blog-wrapper{
         @include flex(space-between,center,row);
-        height: 10vh;
+        height: 50vh;
+        flex-wrap: wrap;
     }
 
-
+    .icon-heading-wrapper{
+        @include flex(space-around,center,row);
+        h2{
+            margin-left: 20px;
+        }
+    }
 
     .info-container{
-        @include flex(space-around,flex-start,column);
-        height: 11vh;
+        @include flex(center,flex-start,column);
+        height: 30vh;
+
+    }
+    .info-container *{
+        margin: 10px 0;
     }
 
     button{
@@ -27,4 +37,7 @@
 }
 .blog-hr{
     width: 100%;
+}
+.open-project-btn{
+    margin-left: 0;
 }
