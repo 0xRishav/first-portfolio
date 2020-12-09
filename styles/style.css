@@ -189,6 +189,8 @@ nav ul {
 
 mark {
   background-color: turquoise;
+  padding: 2px 4px;
+  border-radius: 6px;
 }
 
 #plant-left {
