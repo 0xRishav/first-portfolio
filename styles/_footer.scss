@@ -1,7 +1,14 @@
-footer{
-    background: $grey-text;
-    color: white;
-    min-height: 5vh;
-    padding: 0% 5%;
-    @include flex(center, center, row);
+footer {
+  background: $grey-text;
+  color: white;
+  min-height: 5vh;
+  padding: 0% 5%;
+  @include flex(center, center, row);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+Hey👋, I am a aspiring web developer based out of Madhaya Paradesh. My skills include HTMl, CSS, JavaScript, SCSS, Nodejs.
+
+Hey👋, I am a aspiring web developer based out of Madhaya Paradesh. My skills include HTMl, CSS, JavaScript, SCSS, Nodejs.
+

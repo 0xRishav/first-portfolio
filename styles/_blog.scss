@@ -1,43 +1,42 @@
-.blogs-wrapper{
-    width: 80%;
-    position: relative;
-    margin: auto;
-    margin-top: 5%;
-    height: 90vh;
+.blogs-wrapper {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  //   margin-top: 5%;
+  //   height: 40vh;
 
-    .individual-blog-wrapper{
-        @include flex(space-between,center,row);
-        height: 50vh;
-        flex-wrap: wrap;
-    }
+  .individual-blog-wrapper {
+    @include flex(space-between, center, row);
+    height: 30vh;
+    flex-wrap: wrap;
+  }
 
-    .icon-heading-wrapper{
-        @include flex(space-around,center,row);
-        h2{
-            margin-left: 20px;
-        }
+  .icon-heading-wrapper {
+    @include flex(space-around, center, row);
+    h2 {
+      margin-left: 20px;
     }
+  }
 
-    .info-container{
-        @include flex(center,flex-start,column);
-        height: 30vh;
+  .info-container {
+    @include flex(center, flex-start, column);
+    height: 20vh;
+  }
+  .info-container * {
+    margin: 10px 0;
+  }
 
-    }
-    .info-container *{
-        margin: 10px 0;
-    }
-
-    button{
-        background: #2c2c2c;
-        color: white;
-        padding: 1rem 3rem;
-        border-radius: 2rem;
-        cursor: pointer;
-    }
+  button {
+    background: #2c2c2c;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
 }
-.blog-hr{
-    width: 100%;
+.blog-hr {
+  width: 100%;
 }
-.open-project-btn{
-    margin-left: 0;
+.open-project-btn {
+  margin-left: 0;
 }

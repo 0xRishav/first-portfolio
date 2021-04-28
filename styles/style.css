@@ -24,21 +24,21 @@ label,
 input,
 p,
 a {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 2.3rem;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 h4,
 h5 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 ul {
@@ -316,12 +316,7 @@ hr {
   width: 70%;
 }
 
-.off-the-clock,
-.animalpedia,
-.binary-converter,
-.banana-talk,
-.cli-one,
-.cli-two {
+.project-wrapper {
   width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -341,12 +336,7 @@ hr {
   margin: 3vh 0;
 }
 
-.off-the-clock .heading-caption-container,
-.animalpedia .heading-caption-container,
-.binary-converter .heading-caption-container,
-.banana-talk .heading-caption-container,
-.cli-one .heading-caption-container,
-.cli-two .heading-caption-container {
+.project-wrapper .heading-caption-container {
   -ms-flex-item-align: start;
       align-self: flex-start;
   display: -webkit-box;
@@ -489,14 +479,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .blogs-wrapper {
   width: 80%;
   position: relative;
   margin: auto;
-  margin-top: 5%;
-  height: 90vh;
 }
 
 .blogs-wrapper .individual-blog-wrapper {
@@ -513,7 +504,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 50vh;
+  height: 30vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -551,7 +542,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 30vh;
+  height: 20vh;
 }
 
 .blogs-wrapper .info-container * {
